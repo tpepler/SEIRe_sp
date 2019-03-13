@@ -1,0 +1,6 @@
+export(SEIRe_sp)
+exportClasses(SEIRe_sp)
+exportMethods(run)
+import(SimInf)
+import(methods)
+useDynLib(SEIRe_sp, .registration=TRUE)
